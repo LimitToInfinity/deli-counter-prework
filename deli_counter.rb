@@ -1,7 +1,6 @@
 katz_deli = []
 
 def line(array)
-  
   if array.length == 0
     puts "The line is currently empty."
   else
@@ -9,7 +8,6 @@ def line(array)
     array.each { |n| opening = opening + "#{array.index(n).to_i + 1}. #{n} " }
     puts opening.chop
   end
-
 end
 
 def take_a_number(array, name)
