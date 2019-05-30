@@ -14,8 +14,9 @@ def take_a_number(array, name)
   if array.length == 0
     array.push(name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
-  else array.length > 0
+  elsif array.length > 0
     array.push(name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
   end
 end
+
