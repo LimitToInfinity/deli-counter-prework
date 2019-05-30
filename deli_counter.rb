@@ -4,8 +4,7 @@ def line(array)
   
   if array.length == 0
     puts "The line is currently empty."
-  else for index in 0...array.size
-    puts "The line is currently: #{array[index]}. #{array}"
+  else array.collect { |n| "The line is currently: #{n}"
     end
   end
   
