@@ -7,6 +7,7 @@ def line(array)
   else
     opening = "The line is currently: "
     array.each { |n| opening = opening + "#{array.index(n).to_i + 1}. #{n} " }
+    opening.length 
     puts opening
   end
 
